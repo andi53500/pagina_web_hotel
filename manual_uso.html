@@ -24,12 +24,18 @@
         <p>Aquí puedes encontrar el manual de uso de la aplicación.</p>
         <section>
             <div class="marco-contenedor">
-                <div class="marco-titulo"><h2>Registro de personas</h2></div>
+                <div class="marco-titulo">
+                    <h2>Registro de personas</h2>
+                </div>
                 <div class="marco-contenido">
                     <p class="marco-texto">
                         Para registrar un nuevo huésped, diríjase al módulo de recepción
                         y complete todos los campos obligatorios. El sistema no le permitira agregar a una persona si
                         este no tiene seleccionado si es clietne o empleado ademas de no tener los campos rellenados.
+
+                        1. El boton afegir añade personas <br><br>
+                        2. El boton eliminar elimina personas <br><br>
+                        3. Modificar modifica las personas que se seleccionan en el combo mox de la izquierda
                     </p>
                     <div class="contenedor-imagen">
                         <img src="imagenes/alta_clientes_imagen.png" alt="alta_clientes_imagen">
@@ -38,12 +44,19 @@
             </div>
 
             <div class="marco-contenedor">
-                <div class="marco-titulo"><h2>Gestión de reservas</h2></div>
+                <div class="marco-titulo">
+                    <h2>Gestión de reservas</h2>
+                </div>
                 <div class="marco-contenido">
                     <p class="marco-texto">
                         Rellene todos los campos obligatorios de la parte superior. Selecione un metodo de pago, si el
                         metodo de pago es transerencia la factura se generara automaticamente. En cambio si es otro
                         metodo de pago, la factura se debere crear para visualizar el costo el iva etc..
+
+                        1. El boton de crear crea una nueva reserva <br><br>
+                        2. Cuando se seleciona una reserva se puede crear la factura si se da a crear factura <br><br>
+                        3. Si se da a Mostrar info se muestra los datos de la reserva y la factura <br><br>
+                        4. Si se da a cancelar se cancela la reserva y la factura <br><br>
 
                         La aplicacion no permite el regitro dos reservas en la misma fechas.
                     </p>
@@ -54,7 +67,9 @@
             </div>
 
             <div class="marco-contenedor">
-                <div class="marco-titulo"><h2>Gestion de tareas</h2></div>
+                <div class="marco-titulo">
+                    <h2>Gestion de tareas</h2>
+                </div>
                 <div class="marco-contenido">
                     <p class="marco-texto">
                         Para crear una tarea debe rellenar la fecha de ejecucion y la descripcion de la tarea una vez
@@ -65,7 +80,13 @@
                         que un empleado ha acabado la tarea debe selecionar el empleado y la tarea en el que esta
                         asignado el empleado y darle a completar. <br><br>
                         El formato de como se muestran las tareas es el siguente:<br>
-                        [(fecha de creacion), (fecha de ejecucion), (descripcion de la tarea), (estado de la tarea), (NIF del empleado) --> (estado de la tarea del empleado)]
+                        [(fecha de creacion), (fecha de ejecucion), (descripcion de la tarea), (estado de la tarea),
+                        (NIF del empleado) --> (estado de la tarea del empleado)] <br><br>
+                        1. El boton de crear crea la tasca <br><br>
+                        2. El boton de modificar modifica la tasca <br><br>
+                        3. El boton de eliminar elimina la tasca <br><br>
+                        4. Cuando se seleciona un empleado y una tasca el boton de Afegir a la tasca añade empleados a la tasca <br><br>
+                        5. El boton de completar tasca actualiza el estado de la tasca sobre el empleado.
                     </p>
                     <div class="contenedor-imagen">
                         <img src="imagenes/tascaas_imagen.png" alt="UML_Gestio_De_Hotel">
