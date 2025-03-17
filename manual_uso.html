@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Uso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Manual de Uso</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="diseno_bd.html">Diseño de la Base de Datos</a>
+        <a href="uml.html">UML</a>
+        <a href="manual_uso.html">Manual de Uso</a>
+        <a href="resolucion_problemas.html">Resolución de Problemas</a>
+    </nav>
+    <section>
+        <h2>Manual de Uso</h2>
+        <p>Aquí puedes encontrar el manual de uso de la aplicación.</p>
+        <section>
+            <div class="marco-contenedor">
+                <div class="marco-titulo"><h2>Registro de personas</h2></div>
+                <div class="marco-contenido">
+                    <p class="marco-texto">
+                        Para registrar un nuevo huésped, diríjase al módulo de recepción
+                        y complete todos los campos obligatorios. El sistema no le permitira agregar a una persona si
+                        este no tiene seleccionado si es clietne o empleado ademas de no tener los campos rellenados.
+                    </p>
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/alta_clientes_imagen.png" alt="alta_clientes_imagen">
+                    </div>
+                </div>
+            </div>
+
+            <div class="marco-contenedor">
+                <div class="marco-titulo"><h2>Gestión de reservas</h2></div>
+                <div class="marco-contenido">
+                    <p class="marco-texto">
+                        Rellene todos los campos obligatorios de la parte superior. Selecione un metodo de pago, si el
+                        metodo de pago es transerencia la factura se generara automaticamente. En cambio si es otro
+                        metodo de pago, la factura se debere crear para visualizar el costo el iva etc..
+
+                        La aplicacion no permite el regitro dos reservas en la misma fechas.
+                    </p>
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/facturas_reservas_imagenes.png" alt="UML_Gestio_De_Hotel">
+                    </div>
+                </div>
+            </div>
+
+            <div class="marco-contenedor">
+                <div class="marco-titulo"><h2>Gestion de tareas</h2></div>
+                <div class="marco-contenido">
+                    <p class="marco-texto">
+                        Para crear una tarea debe rellenar la fecha de ejecucion y la descripcion de la tarea una vez
+                        hecho eso le dara a crear. En el apartado de crear tareas hay un despleglabe que te permite
+                        seleccionar tareas para modificarlas o eliminarlas. El apartado de la derecha sirve para añadir
+                        empleados a las tareas, estos se añadiras por el NIF. Puede añadir tantos empleados como
+                        necesite, pero para competar una tarea todos los empleados deben acabar la tarea. Para marcar
+                        que un empleado ha acabado la tarea debe selecionar el empleado y la tarea en el que esta
+                        asignado el empleado y darle a completar. <br><br>
+                        El formato de como se muestran las tareas es el siguente:<br>
+                        [(fecha de creacion), (fecha de ejecucion), (descripcion de la tarea), (estado de la tarea), (NIF del empleado) --> (estado de la tarea del empleado)]
+                    </p>
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/tascaas_imagen.png" alt="UML_Gestio_De_Hotel">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2025 Manual de la Aplicación Gestora de Hotel</p>
+    </footer>
+</body>
+
+</html>

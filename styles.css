@@ -1,0 +1,161 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Estilos para las secciones de contenido */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 100px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para la caja de código SQL */
+.code-box {
+    background-color: #2d2d2d;
+    /* Fondo oscuro */
+    color: #f8f8f2;
+    /* Color del texto */
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Courier New", Courier, monospace;
+    /* Fuente monoespaciada */
+    font-size: 14px;
+    overflow-x: auto;
+    /* Permite desplazamiento horizontal si el código es largo */
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para resaltar palabras clave SQL */
+.code-box .sql-keyword {
+    color: #ff79c6;
+    /* Color para palabras clave */
+    font-weight: bold;
+}
+
+.code-box .sql-string {
+    color: #f1fa8c;
+    /* Color para cadenas de texto */
+}
+
+.code-box .sql-comment {
+    color: #6272a4;
+    /* Color para comentarios */
+    font-style: italic;
+}
+
+.contenedor-imagen {
+    max-width: 100%;
+    overflow: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+
+    /* Estilos para el marco principal */
+    .marco-contenedor {
+        border: 2px solid #2c3e50;
+        border-radius: 12px;
+        padding: 25px;
+        margin: 20px 0;
+        background-color: #ffffff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Estilo para títulos dentro del marco */
+    .marco-titulo {
+        color: #2c3e50;
+        font-size: 1.8em;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #3498db;
+        font-weight: 600;
+    }
+
+    /* Contenedor flexible para texto e imágenes */
+    .marco-contenido {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    /* Estilo para imágenes dentro del marco */
+    .marco-imagen {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 15px 0;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilos para texto */
+    .marco-texto {
+        line-height: 1.7;
+        color: #34495e;
+        font-size: 1.1em;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .marco-contenedor {
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .marco-titulo {
+            font-size: 1.5em;
+        }
+    }
+
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor-imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
